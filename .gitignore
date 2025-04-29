@@ -1,32 +1,3 @@
-# ---------------------------
-   # Visual Studio / Rider / VSCode
-   .vs/
-   .idea/
-   *.suo
-   *.user
-   *.userosscache
-   *.sln.docstates
-
-   # ---------------------------
-   # Build artifacts
-   **/bin/
-   **/obj/
-   **/out/
-
-   # ---------------------------
-   # NuGet
-   **/packages/
-   *.nupkg
-   # Se estiver versionando pacotes localmente
-   packages/**
-
-   # ---------------------------
-   # Logs e arquivos temporários
-   *.log
-   *.tmp
-   *.temp
-
-   # ---------------------------
-   # Outros
-   .DS_Store
-   Thumbs.db
+bin/
+obj/
+Migrations/
